@@ -10,6 +10,7 @@ function startParentType() {
         strings: ["Full Stack Developer", "Entrepeneur", "Hacker", "Teacher", "<span class='word'></span> Developer"],
         typeSpeed: 65,
         loop: false,
+        showCursor: false,
         backDelay: 1500,
         callback: function () {
             setTimeout(function () {
@@ -24,6 +25,7 @@ function developerType() {
         strings: ["Python", "Javascript", "PHP", "HTML/CSS"],
         typeSpeed: 65,
         backDelay: 1500,
+        showCursor: false,
         loop: false,
         callback: function () {
             setTimeout(function () {

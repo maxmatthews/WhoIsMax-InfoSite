@@ -15,8 +15,6 @@ body {
 #content {
   padding: 20px;
   margin-top: -100vh; }
-  #content .typed-cursor {
-    opacity: 0; }
   #content .animatedDeveloper {
     font-family: 'Courier', monospace;
     text-shadow: 1px 1px #000000; }
