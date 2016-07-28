@@ -22,7 +22,7 @@ function startParentType() {
 
 function developerType() {
     $(".word").typed({
-        strings: ["Python", "Javascript", "PHP", "HTML/CSS"],
+        strings: ["Python", "Javascript", "React", "Meteor", "PHP", "Mobile", "HTML/CSS"],
         typeSpeed: 65,
         backDelay: 1500,
         showCursor: false,
