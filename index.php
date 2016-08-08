@@ -7,7 +7,6 @@ https://github.com/maxmatthews/WhoIsMax-InfoSite -->
 </head>
 
 <body>
-
 <div class="container-fluid" id="home">
     <div id="particles-js"></div>
     <div class="row" id="content">
