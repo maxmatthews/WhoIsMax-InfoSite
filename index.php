@@ -18,7 +18,7 @@ https://github.com/maxmatthews/WhoIsMax-InfoSite -->
             </h2>
         </div>
     </div>
-    <?php include 'links.php'; ?>s
+    <?php include 'links.php'; ?>
 </div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
