@@ -6,6 +6,6 @@
         <a target="_blank" href="//twitter.com/teckno101"><i class="fa fa-twitter-square" aria-hidden="true"></i></a> |
         <a target="_blank" href="//medium.com/@maxmatthews"><i class="fa fa-medium" aria-hidden="true"></i></a> |
         <a target="_blank" href="/MatthewsMaxResume.pdf">resume PDF</a> |
-        <!--        <a href="/archive">resume archive</a> |-->
+        <a href="/archives">archives</a> |
         <a href="mailto:info@whoismax.info">Contact</a>
 </div>

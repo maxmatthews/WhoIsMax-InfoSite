@@ -1,0 +1,126 @@
+body{
+ font-family: "arial","sans-serif";
+}
+
+
+#mycontainer{
+    width: 1000px;
+    font-size: 10pt;
+    margin: 0 auto;
+}
+    
+#logoAmazon {
+    width: 250px;
+    float: left;
+}
+
+#contactLinks {
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    float: left;
+    border-bottom:1px solid #ccc; padding-right:4px;
+    width: 750px;
+}
+
+.clearFloat{
+    clear: both;
+}
+#shopByDepartment {
+    width: 100px;
+    float: left;
+}
+
+#secondRowHeader {
+    padding-top: 8px;
+    padding-left: 15px;
+}
+
+#searchLabel {
+    float: left;
+    padding-left: 25px;
+    padding-top: 8px;
+    padding-right: 3px;
+}
+
+#yourAccount {
+    width: 133px;
+    float: left;
+    padding-left: 15px;
+    border-right:1px solid #ccc; padding-right:4px;
+}
+
+#searchBar {
+    float:left;
+}
+
+#hireHim {
+    width: 64px;
+    float: left;
+    padding-left: 15px;
+    border-right:1px solid #ccc; padding-right:4px;
+}
+
+#cart {
+    width: 66px;
+    float: left;
+    padding-left: 15px;
+    border-right:1px solid #ccc; padding-right:4px;
+}
+
+#wishList {
+    width: 60px;
+    float: left;
+    padding-left: 15px;
+}
+
+#thirdRowHeader {
+        margin-top: 0px;
+    padding-left: 15px;
+    float: left;
+}
+
+#thirdRowHeader p{
+    padding-left: 100px;  
+    float: left;
+}
+
+#secondAndThird {
+    background: -webkit-linear-gradient(white, white, #D8D8D8); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(white, white, #D8D8D8); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(white, white, #D8D8D8); /* For Firefox 3.6 to 15 */
+background: linear-gradient(white, white, #D8D8D8); /* Standard syntax */
+}
+
+.blueBackground {
+    background-color: #c0dbf2;
+}
+
+img {
+    
+}
+
+.thumbnailNBS {
+    padding-bottom: 5px;
+}
+
+.ratings {
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.ratingsNum {
+    display: inline;
+    color: #BDBDBD;
+    margin-left: 10px;
+}
+
+.text666 {
+    color: #666;
+}
+
+.date {
+    display: inline;
+    padding-left: 5px;
+    font-size: .99em;
+}
