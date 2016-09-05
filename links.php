@@ -1,6 +1,6 @@
 <div class="links text-center">
         <a href="/">Home</a> |
-        <a target="_blank" href="http://mzmtech.com/cal">Calendar</a> |
+        <a target="_blank" href="/cal">Calendar</a> |
         <a href="credits.php">Credits</a> |
         <a target="_blank" href="//linkedin.com/in/whoisMax"><i class="fa fa-linkedin-square" aria-hidden="true"></i></i></a> |
         <a target="_blank" href="//twitter.com/teckno101"><i class="fa fa-twitter-square" aria-hidden="true"></i></a> |
