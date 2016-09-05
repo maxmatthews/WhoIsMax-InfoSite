@@ -7,5 +7,5 @@
         <a target="_blank" href="//medium.com/@maxmatthews"><i class="fa fa-medium" aria-hidden="true"></i></a> |
         <a target="_blank" href="/MatthewsMaxResume.pdf">resume PDF</a> |
         <a href="/archives">archives</a> |
-        <a href="mailto:info@whoismax.info">Contact</a>
+        <a href="mailto:website@maxmatthe.ws">Contact</a>
 </div>
