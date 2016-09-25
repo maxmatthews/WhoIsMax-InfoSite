@@ -21,6 +21,6 @@
 <meta name="google-site-verification" content="A1j1S8ni8jHyT95avnbuNswfwmRwyVHarW9Hh9CGO6w" />
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <link href="//fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
-<link href="/style.min.css" rel="stylesheet" />
+<link href="/style.css" rel="stylesheet" />
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 <title>Max Matthews</title>
