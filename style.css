@@ -92,6 +92,8 @@ body {
 #map, #mapBucketList {
   position: relative;
   color: blue; }
+  #map .gm-style-iw, #mapBucketList .gm-style-iw {
+    height: 65px; }
   #map iframe, #mapBucketList iframe {
     background: #4db4f8;
     z-index: 2;

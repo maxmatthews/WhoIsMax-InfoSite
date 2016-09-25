@@ -114,6 +114,10 @@ body {
 #map, #mapBucketList{
     position: relative;
 
+    .gm-style-iw{
+        height: 65px;
+    }
+
     iframe{
         background: #4db4f8;
         z-index: 2;
