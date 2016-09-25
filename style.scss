@@ -78,7 +78,7 @@ body {
         .link {
             color: white;
             text-decoration: underline;
-            a:hover,
+            &:hover,
             i:hover {
                 color: lightgray;
             }
@@ -97,6 +97,7 @@ body {
     padding-top: 10px;
     color: white;
     padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
     a {
         color: white;
         text-transform: lowercase;
@@ -104,8 +105,7 @@ body {
         font-size: 18pt;
         margin-right: 5px;
         margin-left: 5px;
-        a:hover,
-        i:hover {
+        &:hover, i:hover {
             color: lightgray;
         }
     }

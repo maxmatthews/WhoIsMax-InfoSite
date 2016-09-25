@@ -63,7 +63,7 @@ body {
     body #archives .link {
       color: white;
       text-decoration: underline; }
-      body #archives .link a:hover,
+      body #archives .link:hover,
       body #archives .link i:hover {
         color: lightgray; }
     body #archives p {
@@ -77,7 +77,8 @@ body {
   left: 0;
   padding-top: 10px;
   color: white;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  font-family: 'Roboto', sans-serif; }
   .links a {
     color: white;
     text-transform: lowercase;
@@ -85,8 +86,7 @@ body {
     font-size: 18pt;
     margin-right: 5px;
     margin-left: 5px; }
-    .links a a:hover,
-    .links a i:hover {
+    .links a:hover, .links a i:hover {
       color: lightgray; }
 
 #map body {
