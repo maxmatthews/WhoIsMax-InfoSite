@@ -114,37 +114,18 @@ body {
 #map, #mapBucketList{
     position: relative;
 
-    body{
-        background: #92cae7;
-    }
-
     iframe{
-        background: #92cae7;
+        background: #4db4f8;
         z-index: 2;
         position: relative;
-    }
-
-    #noiFrame {
-        margin: 25px;
-        @media screen and (min-width: 700px){
-            margin-right: 70px;
-            margin-left: 70px;
-        }
-        position: absolute;
-        top: 5px;
-        color: black;
-        font-size: 30pt;
-        text-transform: none;
-        z-index: 2;
-        background: lightgray;
     }
 
     color: blue;
 
     #googleMap{
         height: 65vh;
-        width: 90%;
-        margin: 15px;
+        margin: 2%;
+        width: 100%;
         margin-bottom: 0;
         border: 0;
 
@@ -180,26 +161,19 @@ body {
 }
 
 #mapBody{
-    background: #92cae7;
+    background: #4db4f8;
 }
 
 #mapBucketListBody{
-    background: #0a4b6a;
+    background: #021019;
 
     iframe{
-        background: #0a4b6a;
+        background: #021019;
     }
 
-    #noiFrame {
-        color: black;
-    }
 
     h1, h2, h3 a{
         color: white;
-    }
-
-    h1:not(#noiFrame){
-        text-shadow: 2px 2px #000000;
     }
 
     h2{

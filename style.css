@@ -92,29 +92,14 @@ body {
 #map, #mapBucketList {
   position: relative;
   color: blue; }
-  #map body, #mapBucketList body {
-    background: #92cae7; }
   #map iframe, #mapBucketList iframe {
-    background: #92cae7;
+    background: #4db4f8;
     z-index: 2;
     position: relative; }
-  #map #noiFrame, #mapBucketList #noiFrame {
-    margin: 25px;
-    position: absolute;
-    top: 5px;
-    color: black;
-    font-size: 30pt;
-    text-transform: none;
-    z-index: 2;
-    background: lightgray; }
-    @media screen and (min-width: 700px) {
-      #map #noiFrame, #mapBucketList #noiFrame {
-        margin-right: 70px;
-        margin-left: 70px; } }
   #map #googleMap, #mapBucketList #googleMap {
     height: 65vh;
-    width: 90%;
-    margin: 15px;
+    margin: 2%;
+    width: 100%;
     margin-bottom: 0;
     border: 0; }
     @media screen and (max-width: 700px) {
@@ -137,18 +122,14 @@ body {
     color: blue; }
 
 #mapBody {
-  background: #92cae7; }
+  background: #4db4f8; }
 
 #mapBucketListBody {
-  background: #0a4b6a; }
+  background: #021019; }
   #mapBucketListBody iframe {
-    background: #0a4b6a; }
-  #mapBucketListBody #noiFrame {
-    color: black; }
+    background: #021019; }
   #mapBucketListBody h1, #mapBucketListBody h2, #mapBucketListBody h3 a {
     color: white; }
-  #mapBucketListBody h1:not(#noiFrame) {
-    text-shadow: 2px 2px #000000; }
   #mapBucketListBody h2 {
     text-shadow: 1px 1px #000000; }
   #mapBucketListBody h3 a:hover {
