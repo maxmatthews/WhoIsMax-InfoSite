@@ -19,6 +19,8 @@ https://github.com/maxmatthews/WhoIsMax-InfoSite -->
             <br/>
             <a href="https://github.com/VincentGarreau/particles.js/">Particle JS Background</a>
             <br/>
+            <a href="https://developers.google.com/maps/documentation/embed">Google Maps Embed API</a>
+            <br/>
             <a href="https://github.com/mattboldt/typed.js/">Typed.JS Animation</a>
             <br/>
             <a href="https://github.com/maxmatthews/WhoIsMax-InfoSite">Source (Github)</a>
