@@ -111,10 +111,17 @@ body {
     }
 }
 
-#map{
+#map, #mapBucketListBody{
     body{
         background: #92cae7;
     }
+
+    iframe{
+        background: #92cae7;
+    }
+
+    color: blue;
+
     #googleMap{
         height: 65vh;
         width: 90%;
@@ -131,16 +138,52 @@ body {
         font-family: 'Roboto', sans-serif;
         font-weight: 100;
         font-size: 28pt;
-        color: blue;
         text-transform: uppercase;
+
     }
     h2 {
         font-style: italic;
         font-weight: 100;
+    }
+    h3{
         margin-bottom: 100px;
+    }
+
+    h3 a{
+        text-decoration: underline;
+        color: navy;
+    }
+
+
+    h3 a:hover{
+        color: blue;
     }
 }
 
 #mapBody{
     background: #92cae7;
+}
+
+#mapBucketListBody{
+    background: #0a4b6a;
+
+    iframe{
+        background: #0a4b6a;
+    }
+
+    h1, h2, h3 a{
+        color: white;
+    }
+
+    h1{
+        text-shadow: 2px 2px #000000;
+    }
+
+    h2{
+        text-shadow: 1px 1px #000000;
+    }
+
+    h3 a:hover{
+        color: lightgray;
+    }
 }

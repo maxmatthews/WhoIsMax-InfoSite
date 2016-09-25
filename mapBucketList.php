@@ -7,17 +7,17 @@ https://github.com/maxmatthews/WhoIsMax-InfoSite -->
 	<?php include 'head.php'; ?>
 </head>
 
-<body id="mapBody">
-<div class="container" id="map">
+<body id="mapBucketListBody">
+<div class="container" id="mapBucketList">
 	<div class="row" id="content">
 		<div class="text-center">
 			<iframe
 				id="googleMap"
 				frameborder="0"
-				src="https://www.google.com/maps/d/u/0/embed?mid=1PxD6RDiFtycSQMjPzUlFOJrme_k&z=4&ll=39.5,-98.35"></iframe>
+				src="https://www.google.com/maps/d/u/0/embed?mid=1fjbClGLQtbEH34aQdM6ajs4Lidg"></iframe>
 			<h1>"Man cannot discover new oceans unless he has the courage to lose sight of the shore."</h1>
 			<h2>-André Gide</h2>
-			<h3><a href="/mapBucketList.php">Switch To Bucket List Map</a></h3>
+			<h3><a href="/map.php">Switch To Previous Travel Map</a></h3>
 		</div>
 	</div>
 	<?php include 'links.php'; ?>

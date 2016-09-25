@@ -89,29 +89,51 @@ body {
     .links a:hover, .links a i:hover {
       color: lightgray; }
 
-#map body {
-  background: #92cae7; }
-#map #googleMap {
-  height: 65vh;
-  width: 90%;
-  margin: 15px;
-  margin-bottom: 0;
-  border: 0; }
-  @media screen and (max-width: 700px) {
-    #map #googleMap {
-      height: 50vh; } }
-#map h1 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  font-size: 28pt;
-  color: blue;
-  text-transform: uppercase; }
-#map h2 {
-  font-style: italic;
-  font-weight: 100;
-  margin-bottom: 100px; }
+#map, #mapBucketListBody {
+  color: blue; }
+  #map body, #mapBucketListBody body {
+    background: #92cae7; }
+  #map iframe, #mapBucketListBody iframe {
+    background: #92cae7; }
+  #map #googleMap, #mapBucketListBody #googleMap {
+    height: 65vh;
+    width: 90%;
+    margin: 15px;
+    margin-bottom: 0;
+    border: 0; }
+    @media screen and (max-width: 700px) {
+      #map #googleMap, #mapBucketListBody #googleMap {
+        height: 50vh; } }
+  #map h1, #mapBucketListBody h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 28pt;
+    text-transform: uppercase; }
+  #map h2, #mapBucketListBody h2 {
+    font-style: italic;
+    font-weight: 100; }
+  #map h3, #mapBucketListBody h3 {
+    margin-bottom: 100px; }
+  #map h3 a, #mapBucketListBody h3 a {
+    text-decoration: underline;
+    color: navy; }
+  #map h3 a:hover, #mapBucketListBody h3 a:hover {
+    color: blue; }
 
 #mapBody {
   background: #92cae7; }
+
+#mapBucketListBody {
+  background: #0a4b6a; }
+  #mapBucketListBody iframe {
+    background: #0a4b6a; }
+  #mapBucketListBody h1, #mapBucketListBody h2, #mapBucketListBody h3 a {
+    color: white; }
+  #mapBucketListBody h1 {
+    text-shadow: 2px 2px #000000; }
+  #mapBucketListBody h2 {
+    text-shadow: 1px 1px #000000; }
+  #mapBucketListBody h3 a:hover {
+    color: lightgray; }
 
 /*# sourceMappingURL=style.css.map */
