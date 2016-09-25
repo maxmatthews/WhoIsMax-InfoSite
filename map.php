@@ -15,7 +15,7 @@ https://github.com/maxmatthews/WhoIsMax-InfoSite -->
 				id="googleMap"
 				frameborder="0"
 				src="https://www.google.com/maps/d/u/0/embed?mid=1PxD6RDiFtycSQMjPzUlFOJrme_k&z=4&ll=39.5,-98.35"></iframe>
-			<h1>“Man cannot discover new oceans unless he has the courage to lose sight of the shore.”</h1>
+			<h1>"Man cannot discover new oceans unless he has the courage to lose sight of the shore."</h1>
 			<h2>-André Gide</h2>
 		</div>
 	</div>
