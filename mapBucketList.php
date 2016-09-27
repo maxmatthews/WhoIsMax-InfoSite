@@ -34,7 +34,7 @@ https://github.com/maxmatthews/WhoIsMax-InfoSite -->
 		var ctaLayer = new google.maps.KmlLayer({
 			url: 'https://www.google.com/maps/d/u/0/kml?mid=1fjbClGLQtbEH34aQdM6ajs4Lidg&nl=1&cid=mp&cv=59nj2nr9qYo.en.',
 			map: map,
-//			preserveViewport: true
+			preserveViewport: true
 		});
 	}
 </script>
