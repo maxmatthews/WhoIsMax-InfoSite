@@ -7,7 +7,7 @@ $(function () {
 
 function startParentType() {
     $(".animateType").typed({
-        strings: ["Full Stack Developer", "Entrepeneur", "Hacker", "Teacher", "<span class='word'></span> Developer"],
+        strings: ["Full Stack Developer", "Entrepeneur", "Hacker", "Mentor", "<span class='word'></span> Developer"],
         typeSpeed: 65,
         loop: false,
         showCursor: false,
