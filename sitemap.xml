@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>https://maxmatthe.ws/</loc>
+</url>
+<url>
+  <loc>https://maxmatthe.ws/quote.php</loc>
+</url>
+<url>
+  <loc>https://maxmatthe.ws/credits.php</loc>
+</url>
+<url>
+  <loc>https://maxmatthe.ws/MatthewsMaxResume.pdf</loc>
+  <lastmod>2017-01-04T21:52:19+00:00</lastmod>
+</url>
+<url>
+  <loc>https://maxmatthe.ws/map.php</loc>
+</url>
+<url>
+  <loc>https://maxmatthe.ws/archives/</loc>
+</url>
+<url>
+  <loc>https://maxmatthe.ws/mapBucketList.php</loc>
+</url>
+<url>
+  <loc>https://maxmatthe.ws/archives/amazon/</loc>
+  <lastmod>2017-01-04T21:52:19+00:00</lastmod>
+</url>
+<url>
+  <loc>https://maxmatthe.ws/archives/apple/</loc>
+  <lastmod>2017-01-04T21:52:19+00:00</lastmod>
+</url>
+</urlset>
