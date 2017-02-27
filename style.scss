@@ -70,8 +70,14 @@ body #home {
             text-decoration: underline;
         }
 
-        .truthIs{
-            padding-top: 50px;
+        .text-center{
+            max-width: 900px;
+            margin: 0 auto;
+
+
+            h3{
+                line-height: 1.5;
+            }
         }
 
         .mediumFeedContainer{

@@ -24,15 +24,16 @@ https://github.com/maxmatthews/WhoIsMax-InfoSite -->
     <?php include 'links.php'; ?>
     <div class="belowFoldContent">
         <div class="text-center">
-            <h1>Hi.</h1>
-            <h2>I'm Max.</h2>
-            <h3>I'm a full stack developer in Syracuse, NY,
-                but I prefer to think of myself as a hacker and a mentor/teacher.</h3>
-            <h3>I love a great conversation. Please <a href="mailto:website@maxmatthe.ws">reach out</a>
-                to me to set a time to chat.</h3>
+            <h1>Hi. I'm Max.</h1>
 
-            <h3 class="truthIs">Truth is, this site doesn't get updated much, but that doesn't mean I'm not active!</h3>
-            <h3>You can take a look at my <a href="https://medium.maxmatthe.ws">Medium</a> and <a href="https://twitter.com/teckno101">Twitter</a> feeds below.</h3>
+            <h3>
+                I'm a full stack developer in Syracuse, NY. I enjoy connecting with aspiring developers and entrepreneurs.
+                I'm also an active mentor, teacher, and blogger.
+            </h3>
+            <h3>I'm more than happy to chat with anyone and help them on their journey.
+                For guidance <a href="mailto:website@maxmatthe.ws">reach out</a> and we'll talk soon.</h3>
+
+            <h3>You can also view or subscribe to my <a href="https://medium.maxmatthe.ws">Medium</a> and <a href="https://twitter.com/teckno101">Twitter</a> feeds below.</h3>
         </div>
         <div class="mediumFeedContainer" id="mediumContainer">
             <div class="mediumFeed">
