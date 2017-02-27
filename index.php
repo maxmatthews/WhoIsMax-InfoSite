@@ -15,14 +15,14 @@ https://github.com/maxmatthews/WhoIsMax-InfoSite -->
         <div class="text-center">
             <h1>Max Matthews</h1>
             <h2 class="animatedDeveloper">
-                <span class="animateType"></span>
+                &nbsp;<span class="animateType"></span>&nbsp;
             </h2>
 
             <i class="fa fa-chevron-down"></i>
         </div>
     </div>
     <?php include 'links.php'; ?>
-    <div class="belowFoldContent">
+    <div class="belowFoldContent" id="belowFoldContent">
         <div class="text-center">
             <h1>Hi. I'm Max.</h1>
 
