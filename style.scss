@@ -3,42 +3,114 @@ body #home {
     height: 100vh;
     width: 100vw;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
+.container-fluid{
+    padding: 0;
+}
+
 #home {
-     body {
-         background: darkslategray;
-     }
-     #particle-js {
-         height: 100vh;
-         width: 100vw;
-         z-index: -1;
-         position: fixed;
-         top: 0;
-         left: 0;
-     }
-     #content {
-         padding: 20px;
-         margin-top: -100vh;
-         .animatedDeveloper {
-             font-family: 'Courier', monospace;
-             text-shadow: 1px 1px #000000;
-         }
-         h1 {
-             margin-top: 30vh;
-             font-family: 'Roboto', sans-serif;
-             font-weight: 100;
-             font-size: 68pt;
-             text-shadow: 2px 2px #000000;
-             text-transform: uppercase;
-         }
-         @media (max-width: 1024px) {
-             h1 {
-                 margin-top: 20vh;
-                 font-size: 50pt;
-             }
-         }
-     }
- }
+    body {
+        background: darkslategray;
+    }
+
+    #particle-js {
+        height: 100vh;
+        width: 100vw;
+        z-index: -1;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    #content {
+        height: 100vh;
+        padding: 20px;
+        margin-top: -100vh;
+        .animatedDeveloper {
+            font-family: 'Courier', monospace;
+            text-shadow: 1px 1px #000000;
+        }
+        h1 {
+            margin-top: 30vh;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 100;
+            font-size: 68pt;
+            text-shadow: 2px 2px #000000;
+            text-transform: uppercase;
+        }
+        i{
+            margin-top: 30vh;
+            font-size: 20pt;
+        }
+        @media (max-width: 1024px) and (min-width: 720px) {
+            h1 {
+                margin-top: 40vh;
+                font-size: 50pt;
+            }
+        }
+        @media (max-width: 720px) {
+            h1 {
+                margin-top: 40vh;
+                font-size: 38pt;
+            }
+            i{
+                margin-top: 10vh;
+            }
+        }
+    }
+
+    .belowFoldContent{
+        margin-top: 50px;
+        margin-bottom: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+        h3 a{
+            color: white;
+            text-decoration: underline;
+        }
+
+        .truthIs{
+            padding-top: 50px;
+        }
+
+        .mediumFeedContainer{
+            width: 40%;
+            float: left;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        #mediumContainer{
+            border-radius: 5px;
+        }
+
+
+        #twitter-widget-0{
+            width: 100% !important;
+        }
+
+        @media (max-width: 850px) {
+            .mediumFeedContainer {
+                width: 80%;
+                float: left;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+        }
+
+        .mediumFeed{
+            margin: 0 auto;
+        }
+
+        .feed-item, .j-stack, .juicer-feed {
+            border-radius: 5px;
+        }
+        .referral{
+            margin-bottom: 0;
+        }
+    }
+}
 
 #nowBody {
     background: #A34741;
@@ -89,6 +161,11 @@ body #home {
             font-size: 32pt;
             text-shadow: 2px 2px #000000;
             text-transform: uppercase;
+        }
+        @media (max-width: 1024px) {
+            h1 {
+                margin-top: 10vh;
+            }
         }
         h2 {
             font-style: italic;
@@ -143,6 +220,8 @@ body {
         margin-bottom: 0;
         border: 0;
 
+        margin-left: 0;
+
         @media screen and (max-width: 700px){
             height: 50vh;
         }
@@ -185,7 +264,6 @@ body {
         background: #021019;
     }
 
-
     h1, h2, h3 a{
         color: white;
     }
@@ -200,15 +278,15 @@ body {
 }
 
 .links {
+    z-index: 100;
     width: 100vw;
     background: rgba(0, 0, 0, .5);
-    position: fixed;
-    bottom: 0;
     left: 0;
     padding-top: 10px;
     color: white;
     padding-bottom: 10px;
     font-family: 'Roboto', sans-serif;
+
     a {
         color: white;
         text-transform: lowercase;
@@ -221,4 +299,15 @@ body {
             color: lightgray;
         }
     }
+}
+
+//do not apply these styles to the link bar on the homepage because it has special scrolling properties for the
+//content underneath it, everything else should have the navbar fixed on the bottom
+div:not(#home) > .links{
+    position: fixed;
+    bottom: 0;
+}
+
+.clearFloat{
+    clear: both;
 }

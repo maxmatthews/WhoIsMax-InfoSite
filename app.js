@@ -2,10 +2,43 @@ $(function () {
     particlesJS.load('particles-js', 'particles.json', function () {
         // console.log('callback - particles.js config loaded');
     });
-    startParentType();
+    startTypeAnimation();
+
+    var linksDiv = $('.links');
+
+
+    $('#particles-js').css('height', $(window).height()-parseInt(linksDiv.css('height')));
+
+    $(window).resize($.debounce(1000, function(){
+            $('#particles-js').css('height', $(window).height() - parseInt(linksDiv.css('height')));
+        })
+    );
+
+    $(window).scroll(function(){
+        if (linksDiv.position().top < $(window).scrollTop() + parseInt(linksDiv.css('height'))
+            && !($(window).scrollTop() < $(window).height() - parseInt(linksDiv.css('height')))) {
+            linksDiv.css('position', 'fixed');
+            linksDiv.css('top', 0);
+        }
+        if ($(window).scrollTop() < $(window).height() - parseInt(linksDiv.css('height'))) {
+            linksDiv.css('position', 'static');
+            linksDiv.css('top', '');
+        }
+    });
+
+    setInterval(updateGradient, 10);
+
+    $('.juicer-feed').bind("DOMSubtreeModified",
+        $.debounce(500, function() {
+            $(".referral a").html("");
+            $('#mediumContainer').css('margin-top', 30);
+        })
+    )
 });
 
-function startParentType() {
+
+
+function startTypeAnimation() {
     $(".animateType").typed({
         strings: ["Full Stack Developer", "Entrepeneur", "Hacker", "Mentor", "<span class='word'></span> Developer"],
         typeSpeed: 65,
@@ -29,15 +62,14 @@ function developerType() {
         loop: false,
         callback: function () {
             setTimeout(function () {
-                startParentType();
+                startTypeAnimation();
             }, 1900)
         }
     });
 }
 
 
-var colors = new Array(
-   [62, 35, 255], [60, 255, 60], [255, 35, 98], [45, 175, 230], [255, 0, 255], [255, 128, 0]);
+var colors = [[62, 35, 255], [60, 255, 60], [255, 35, 98], [45, 175, 230], [255, 0, 255], [255, 128, 0]];
 
 var step = 0;
 //color table indices for:
@@ -70,7 +102,7 @@ function updateGradient() {
     var b2 = Math.round(istep * c1_0[2] + step * c1_1[2]);
     var color2 = "rgb(" + r2 + "," + g2 + "," + b2 + ")";
 
-    $('body').css({
+    $('#particles-js').css({
         background: "-webkit-gradient(linear, left top, right top, from(" + color1 + "), to(" + color2 + "))"
     }).css({
         background: "-moz-linear-gradient(left, " + color1 + " 0%, " + color2 + " 100%)"
@@ -89,5 +121,3 @@ function updateGradient() {
 
     }
 }
-
-setInterval(updateGradient, 10);

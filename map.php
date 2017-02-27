@@ -9,7 +9,7 @@ https://github.com/maxmatthews/WhoIsMax-InfoSite -->
 
 <body id="mapBody">
 <div class="container" id="map">
-	<div class="row" id="content">
+	<div id="content">
 		<div class="text-center">
 			<div id="googleMap"></div>
 			<h1>"Man cannot discover new oceans unless he has the courage to lose sight of the shore."</h1>

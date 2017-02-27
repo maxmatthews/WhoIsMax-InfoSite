@@ -9,7 +9,7 @@ https://github.com/maxmatthews/WhoIsMax-InfoSite -->
 <body id="nowBody">
 
 <div class="container-fluid" id="now">
-    <div class="row" id="content">
+    <div id="content">
         <div class="text-center">
             <h3>Quote of Month:</h3>
             <h1>"Mind over mattress"</h1>

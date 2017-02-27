@@ -9,7 +9,7 @@ https://github.com/maxmatthews/WhoIsMax-InfoSite -->
 
 <body>
 <div class="container-fluid" id="credits">
-    <div class="row" id="content">
+    <div id="content">
         <div class="text-center">
             <h1>"Good artists copy; great artists steal."</h1>
             <h2>-Steve Jobs, T.S. Eliot, Picasso</h2>
