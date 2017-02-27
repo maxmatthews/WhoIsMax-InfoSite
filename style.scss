@@ -41,6 +41,8 @@ body #home {
         i{
             margin-top: 30vh;
             font-size: 20pt;
+            opacity: .75;
+            text-shadow: 0 0 1px black;
         }
         @media (max-width: 1024px) and (min-width: 720px) {
             h1 {
