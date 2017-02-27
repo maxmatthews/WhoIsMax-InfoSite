@@ -34,7 +34,7 @@ $(function () {
 
     $('.juicer-feed').bind("DOMSubtreeModified",
         $.debounce(500, function() {
-            $(".referral a").html("");
+            $(".referral").html(null);
             $('#mediumContainer').css('margin-top', 30);
         })
     )
