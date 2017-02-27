@@ -19,12 +19,16 @@ $(function () {
             && !($(window).scrollTop() < $(window).height() - parseInt(linksDiv.css('height')))) {
             linksDiv.css('position', 'fixed');
             linksDiv.css('top', 0);
+
+            $('.belowFoldContent').css('margin-top',  parseInt(linksDiv.css('height')) + 50);
         }
         if ($(window).scrollTop() < $(window).height() - parseInt(linksDiv.css('height'))) {
             linksDiv.css('position', 'static');
             linksDiv.css('top', '');
+            $('.belowFoldContent').css('margin-top',  50);
         }
     });
+
 
     setInterval(updateGradient, 10);
 
