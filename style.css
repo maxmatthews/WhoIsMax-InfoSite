@@ -50,7 +50,8 @@ body #home {
   margin-top: 50px;
   margin-bottom: 100px;
   margin-left: 20px;
-  margin-right: 20px; }
+  margin-right: 20px;
+  min-height: 100vh; }
   #home .belowFoldContent h3 a {
     color: white;
     text-decoration: underline; }
