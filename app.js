@@ -44,7 +44,7 @@ $(function () {
 
 function startTypeAnimation() {
     $(".animateType").typed({
-        strings: ["Full Stack Developer", "Entrepeneur", "Hacker", "Mentor", "<span class='word'></span> Developer"],
+        strings: ["Full Stack Developer", "Entrepreneur", "Hacker", "Mentor", "<span class='word'></span> Developer"],
         typeSpeed: 65,
         loop: false,
         showCursor: false,
