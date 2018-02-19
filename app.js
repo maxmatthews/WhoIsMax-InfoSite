@@ -15,7 +15,7 @@ $(function () {
 
     $('[data-toggle="tooltip"]').tooltip();
 
-    // setInterval(updateGradient, 10);
+    setInterval(updateGradient, 10);
 });
 
 
