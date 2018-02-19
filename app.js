@@ -13,8 +13,6 @@ $(function () {
         })
     );
 
-    $('[data-toggle="tooltip"]').tooltip();
-
     setInterval(updateGradient, 10);
 });
 
@@ -29,7 +27,7 @@ function startTypeAnimation() {
         backDelay: 1500,
         callback: function () {
             setTimeout(function () {
-                developerType();
+                startTypeAnimation();
             }, 1500)
         }
     });

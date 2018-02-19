@@ -11,7 +11,6 @@ https://github.com/maxmatthews/WhoIsMax-InfoSite -->
 <div class="container-fluid" id="now">
     <div id="content">
         <div class="text-center">
-            <h3>Latest Quote:</h3>
             <h1>"I have no special talent, I am only passionately curious."</h1>
             <h2>-Albert Einstein</h2>
         </div>
@@ -20,9 +19,7 @@ https://github.com/maxmatthews/WhoIsMax-InfoSite -->
 </div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script src="typed.js"></script>
 </body>
 
 </html>

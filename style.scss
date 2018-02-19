@@ -67,6 +67,7 @@ body #home {
         font-size: 14pt;
         color: white;
         h1 {
+            margin-top: 20vh;
             font-family: 'Roboto', sans-serif;
             font-weight: 100;
             font-size: 32pt;
@@ -77,12 +78,6 @@ body #home {
             font-style: italic;
             font-weight: 100;
             text-shadow: 1px 1px #000000;
-        }
-        h3 {
-            margin-top: 20vh;
-            font-weight: 100;
-            text-shadow: 1px 1px #000000;
-            text-decoration: underline;
         }
     }
 }

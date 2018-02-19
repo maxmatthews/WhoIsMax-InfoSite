@@ -11,3 +11,8 @@
     <a data-toggle="tooltip" target="_blank" href="https://medium.maxmatthe.ws" title="Medium"><i class="fab fa-medium-m"></i></a>
     <a data-toggle="tooltip" href="mailto:website@maxmatthe.ws" title="Email"><i class="far fa-envelope"></i></a>
 </div>
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    })
+</script>
