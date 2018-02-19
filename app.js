@@ -6,45 +6,23 @@ $(function () {
 
     var linksDiv = $('.links');
 
-
     $('#particles-js').css('height', $(window).height()-parseInt(linksDiv.css('height')));
 
-    $(window).resize($.debounce(1000, function(){
+    $(window).resize($.debounce(250, function(){
             $('#particles-js').css('height', $(window).height() - parseInt(linksDiv.css('height')));
         })
     );
 
-    $(window).scroll(function(){
-        if (linksDiv.position().top < $(window).scrollTop() + parseInt(linksDiv.css('height'))
-            && !($(window).scrollTop() < $(window).height() - parseInt(linksDiv.css('height')))) {
-            linksDiv.css('position', 'fixed');
-            linksDiv.css('top', 0);
+    $('[data-toggle="tooltip"]').tooltip();
 
-            $('.belowFoldContent').css('margin-top',  parseInt(linksDiv.css('height')) + 50);
-        }
-        if ($(window).scrollTop() < $(window).height() - parseInt(linksDiv.css('height'))) {
-            linksDiv.css('position', 'static');
-            linksDiv.css('top', '');
-            $('.belowFoldContent').css('margin-top',  50);
-        }
-    });
-
-
-    setInterval(updateGradient, 10);
-
-    $('.juicer-feed').bind("DOMSubtreeModified",
-        $.debounce(500, function() {
-            $(".referral").html(null);
-            $('#mediumContainer').css('margin-top', 30);
-        })
-    )
+    // setInterval(updateGradient, 10);
 });
 
 
 
 function startTypeAnimation() {
     $(".animateType").typed({
-        strings: ["Full Stack Developer", "Entrepreneur", "Hacker", "Mentor", "<span class='word'></span> Developer"],
+        strings: ["Full Stack Javascript Developer", "Entrepreneur", "Hacker", "Mentor"],
         typeSpeed: 65,
         loop: false,
         showCursor: false,
@@ -53,21 +31,6 @@ function startTypeAnimation() {
             setTimeout(function () {
                 developerType();
             }, 1500)
-        },
-    });
-}
-
-function developerType() {
-    $(".word").typed({
-        strings: ["Python", "Javascript", "React", "Meteor", "PHP", "Mobile", "HTML/CSS"],
-        typeSpeed: 65,
-        backDelay: 1500,
-        showCursor: false,
-        loop: false,
-        callback: function () {
-            setTimeout(function () {
-                startTypeAnimation();
-            }, 1900)
         }
     });
 }

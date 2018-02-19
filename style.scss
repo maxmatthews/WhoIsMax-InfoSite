@@ -10,8 +10,6 @@ body #home {
 }
 
 #home {
-    //overflow-x: hidden;
-
     body {
         background: darkslategray;
     }
@@ -28,7 +26,7 @@ body #home {
         height: 100vh;
         padding: 20px;
         margin-top: -100vh;
-        .animatedDeveloper {
+        .animateType {
             font-family: 'Courier', monospace;
             text-shadow: 1px 1px #000000;
         }
@@ -39,12 +37,6 @@ body #home {
             font-size: 68pt;
             text-shadow: 2px 2px #000000;
             text-transform: uppercase;
-        }
-        i{
-            margin-top: 30vh;
-            font-size: 20pt;
-            opacity: .75;
-            text-shadow: 0 0 1px black;
         }
         @media (max-width: 1024px) and (min-width: 720px) {
             h1 {
@@ -60,66 +52,6 @@ body #home {
             i{
                 margin-top: 10vh;
             }
-        }
-    }
-
-    .belowFoldContent{
-        margin-top: 50px;
-        margin-bottom: 100px;
-        margin-left: 20px;
-        margin-right: 20px;
-
-        min-height: 100vh;
-
-        h3 a{
-            color: white;
-            text-decoration: underline;
-        }
-
-        .text-center{
-            max-width: 900px;
-            margin: 0 auto;
-
-
-            h3{
-                line-height: 1.5;
-            }
-        }
-
-        .mediumFeedContainer{
-            width: 40%;
-            float: left;
-            margin-left: 5%;
-            margin-right: 5%;
-        }
-
-        #mediumContainer{
-            border-radius: 5px;
-        }
-
-
-        #twitter-widget-0{
-            width: 100% !important;
-        }
-
-        @media (max-width: 850px) {
-            .mediumFeedContainer {
-                width: 80%;
-                float: left;
-                margin-left: 10%;
-                margin-right: 10%;
-            }
-        }
-
-        .mediumFeed{
-            margin: 0 auto;
-        }
-
-        .feed-item, .j-stack, .juicer-feed {
-            border-radius: 5px;
-        }
-        .referral{
-            margin-bottom: 0;
         }
     }
 }
@@ -290,10 +222,12 @@ body {
 }
 
 .links {
+    position: fixed;
     z-index: 100;
-    width: 100vw; //not 100 due to a horizontal scroll bar
+    width: 100%;
     background: rgba(0, 0, 0, .6);
     left: 0;
+    bottom: 0;
     padding-top: 10px;
     color: white;
     padding-bottom: 10px;
@@ -303,10 +237,9 @@ body {
         color: white;
         text-transform: lowercase;
         text-decoration: none;
-        font-size: 18pt;
-        font-weight: 100;
-        margin-right: 5px;
-        margin-left: 5px;
+        font-size: 24pt;
+        margin-right: 7px;
+        margin-left: 7px;
         &:hover, i:hover {
             color: lightgray;
         }

@@ -11,9 +11,9 @@ https://github.com/maxmatthews/WhoIsMax-InfoSite -->
 <div class="container-fluid" id="now">
     <div id="content">
         <div class="text-center">
-            <h3>Quote of Month:</h3>
-            <h1>"Mind over mattress"</h1>
-            <h2>-Stephen Covey</h2>
+            <h3>Latest Quote:</h3>
+            <h1>"I have no special talent, I am only passionately curious."</h1>
+            <h2>-Albert Einstein</h2>
         </div>
     </div>
     <?php include 'links.php'; ?>
